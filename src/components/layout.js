@@ -18,11 +18,15 @@ import {
   useColorModeValue,
   createIcon,
 } from '@chakra-ui/react';
+import Header from "./template/Header";
+import Buttontem from "./template/Buttontem";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Container maxW={'3xl'}>
+      <Container maxW={'7xl'} zIndex={10} position={'relative'} >
+       <Header/>
+        <Buttontem /> 
         <Stack
           as={Box}
           textAlign={'center'}
