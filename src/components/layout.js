@@ -17,6 +17,7 @@ import BackImage from "./template/BackImage";
 import ProductPeople from "./template/ProductPeople";
 import OurCommits from "./template/OurCommits";
 import CardPeople from "./template/CardPeople";
+import PlugRun from "./template/PlugRun";
 
 const Layout = ({ children }) => {
   return (
@@ -24,6 +25,7 @@ const Layout = ({ children }) => {
       <Container maxW={'6xl'} zIndex={10} position={'relative'} >
        <Navbar /> 
        <Header/>
+       <PlugRun/>
        <CardPeople/>
        <OurCommits/>
        <ProductPeople/>

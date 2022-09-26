@@ -11,7 +11,9 @@ import {
   useColorModeValue,
   VStack
 } from '@chakra-ui/react';
-import { FcAssistant, FcDonate, FcInTransit, FaAdn } from 'react-icons/fc';
+import { FcAssistant, FcDonate, FcInTransit } from 'react-icons/fc';
+import { FaAdn } from "react-icons/fa";
+
 
 const Feature = ({ title, text, icon, iconBg }) => {
   return (
